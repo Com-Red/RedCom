@@ -2,42 +2,27 @@
 <html>
     <head>
         <meta charset="utf-8">
-        <title>ComRed</title>
+        <title>Внутренние ссылки</title>
         <style>
-            ul#menu li {
-                display: inline;
+            a:link {color: brown;}
+            a:visited {color: brown; text-decoration: none;}
+            a:hover {color: blue;}
+            #div{
+                height: 500px;
+                color: rgb(22, 216, 22);
+                border: 2px;
+                background-color: blue;
+                text-align: center;
             }
         </style>
     </head>
     <body>
-        <p>Содержание документа HTML5</p>
-        <pre><span = style="color: blue;">
-            Текст как он определен
-            <b>выводится в этом</b> элементе
-            тестовая страница
-        </span>
-        </pre>
-        <p>
-            <img src="images/321.jpg" alt="Деталь" width="250px">
-            <img src="images/123.JPEG" width="250px">
-        </p>
-        <p>
-            <details>
-                <summary style="color: brown;">Заголовок</summary>
-                <ul>
-                    <li>123</li>
-                    <li>321</li>
-                </ul>
-            </details>
-        </p>
-        <p>
-            <a href="doc.html">2 страница</a>
-        </p>
-        <p>
-            <a href="files.html">передача файлов</a>
-        </p>
-        <p>
-            <a href="style.html">style</a>
-        </p>
+       <form method="get">
+            <input name="login">
+            <input type="submit" value="Войти">
+            <input type="radio">
+            <input type="color">
+       </form>
+       <div id="div">123</div>
     </body>
 </html>
