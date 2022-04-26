@@ -1,28 +1,28 @@
-.div1{
-    background-color: aqua;
+.menu1{
+    display: flex;
+    padding: 5px 0 0 5px;
 }
-
-ul.nav{
-    margin-left: 0px;
+ul.menu{
+    margin: auto;
     padding-left: 0px;
     list-style: none;
 }
-.nav li { 
+.menu li { 
     float: left;
+    padding-top: 15px;
 }
-ul.nav a {
-    display: block;
-    width: 5em;
+ul.menu a {
     padding:5px;
-    margin: 0 1px;
-    background-color: #f4f4f4;
+    margin: 0 2px;
+    background-color: #ffffffd8;
     border: 1px solid #333;
     text-decoration: none;
     color: #333;
     text-align: center;
-    font-size: 20px;
+    font-size: 18px;
+    border-radius: 10px;
 }
-ul.nav a:hover{
+ul.menu a:hover{
     background-color: #333;
     color: #f4f4f4;
 }
@@ -30,7 +30,60 @@ ul.nav a:hover{
     margin: auto;
 }
 .divform{
+    text-align: center;
     width: 650px;
     margin: auto;
-    border: 1px solid black;
+    box-shadow: 1px 1px 15px black;
+}
+.sch{
+    display: flex;
+    flex-direction:row;
+}
+.sch1{
+    display: flex;
+    flex-direction: column;
+}
+.sch2{
+    width: 200px;
+    text-align: center;
+    background: linear-gradient(90deg, #b9deed, #efefef);
+    margin-bottom: 10px;
+    box-shadow: 1px 1px 15px black;
+    border-radius: 10px;
+}
+.sch4{
+    width: 200px;
+    text-align: center;
+    background: linear-gradient(90deg, #b9deed, #efefef);
+    box-shadow: 1px 1px 15px black;
+    border-radius: 10px;
+}
+.promo{
+    width: 79%;
+    text-align: center;
+    background: linear-gradient(90deg, #b9deed, #efefef);
+    margin-right: 1%;
+    box-shadow: 1px 1px 15px black;
+    border-radius: 10px;
+}
+#textpriv{
+    margin-top: 10px;
+    text-align: justify;
+    padding: 10px;
+    box-shadow: 1px 1px 15px black;
+    border-radius: 10px;
+}
+#podval{
+    background-color: #000000;   
+    box-shadow: 1px 1px 15px black;
+    border-radius: 10px;
+    color: white;
+    padding: 5px;
+    margin: 10px 0px 5px;
+}
+#podval div{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-around;
+
 }
