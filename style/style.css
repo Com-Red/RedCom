@@ -81,9 +81,3 @@ ul.menu a:hover{
     padding: 5px;
     margin: 10px 0px 5px;
 }
-#podval div{
-    display: flex;
-    flex-direction: row;
-    justify-content:space-around;
-
-}
