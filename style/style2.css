@@ -11,7 +11,7 @@ body{
     flex-direction: column;
     max-width: 1000px;
     margin: auto;
-    
+    background-color: rgb(43, 43, 43);
 }
 .main{
     display: flex;
@@ -80,15 +80,14 @@ body{
     border: 1px solid black;
     background-color: #efefef;
 }
-#header{
+.header{
     background-image: url(/images/header.jpeg);
     height: 250px;
-    box-shadow: 1px 1px 15px black;
     margin-top: 10px;
     margin-bottom: 10px;
     border-radius: 10px;
 }
-#header h1{
+.header h1{
     text-align: right;
     padding: 0 10px 0px;
     color: white;
