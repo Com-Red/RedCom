@@ -49,32 +49,34 @@ ul.menu a:hover{
     background: linear-gradient(90deg, #b9deed, #efefef);
     margin-bottom: 10px;
     
-    border-radius: 10px;
 }
+.sch2 :hover{
+    box-shadow: 0px 0px 150px white;
+}
+
 .sch4{
     width: 200px;
     text-align: center;
     background: linear-gradient(90deg, #b9deed, #efefef);
     
-    border-radius: 10px;
 }
 .promo{
     width: 79%;
     text-align: center;
     background: linear-gradient(90deg, #b9deed, #efefef);
     margin-right: 1%;
-    border-radius: 10px;
+    
 }
 #textpriv{
     margin-top: 10px;
     text-align: justify;
     padding: 10px;
     box-shadow: 1px 1px 15px rgb(255, 255, 255);
-    border-radius: 10px;
+    
 }
 .podval{
     background-color: #000000;
-    border-radius: 10px;
+    
     color: white;
     padding: 5px;
     margin: 10px 0px 5px;
@@ -82,7 +84,7 @@ ul.menu a:hover{
 .text{
     background: linear-gradient(90deg, #b9deed, #efefef);
     margin-top: 10px;
-    border-radius: 10px;
+    
     padding: 10px;
     box-shadow: 1px 1px 1px white;
 }
