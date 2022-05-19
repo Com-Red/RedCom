@@ -48,3 +48,36 @@ pageclass9.addEventListener('click', menu1);
 pageclass10.addEventListener('click', menu1);
 pageclass11.addEventListener('click', menu1);
 
+//Блок по умолчанию
+
+
+
+let but = document.createElement('button');
+but.textContent = 'APP';
+divtop.insertAdjacentElement('afterend', but);
+let but2 = document.createElement('button');
+but2.textContent = 'DEL';
+divtop.insertAdjacentElement('afterend', but2);
+
+// Работа кнопок меню в соответствии с условием 
+
+function vopros(){
+  if (divtop.classList.value == '123') console.log('NO')
+  else {
+    
+    let divtest = document.createElement('div');
+    divtest.textContent = '123';
+    divtest.classList = 'test1';
+    divtest.id = 'divtest';
+    divtop.classList = '123';
+    divtop.insertAdjacentElement('afterend', divtest);
+    
+  }
+};
+but.addEventListener('click', vopros);
+
+
+
+but2.addEventListener('click', function del (){
+  document.querySelector('.test1').remove();
+})
